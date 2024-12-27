@@ -30,7 +30,10 @@ mistral = ["mistralai"]
 ollama = []
 openai = ["openai"]
 watsonx = ["ibm-watsonx-ai"]
-all = ["anthropic", "aws", "google", "groq", "mistral", "openai", "cohere", "watsonx"]  # To install all providers
+all = ["anthropic", "aws", "google", "groq", "mistral", "openai", "cohere", "watsonx", "google-search-results", "tavily-python"]  # To install all providers
+all-models = ["anthropic", "aws", "google", "groq", "mistral", "openai", "cohere", "watsonx"]  # To install all providers
+all-search = ["google-search-results", "tavily-python"]
+
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.1"
